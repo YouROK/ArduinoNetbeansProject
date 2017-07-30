@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="arduino" displayName="arduino" projectFiles="true">
+        <itemPath>cores/arduino/Arduino.h</itemPath>
+        <itemPath>cores/arduino/CDC.cpp</itemPath>
+        <itemPath>cores/arduino/Client.h</itemPath>
+        <itemPath>cores/arduino/HardwareSerial.cpp</itemPath>
+        <itemPath>cores/arduino/HardwareSerial.h</itemPath>
+        <itemPath>cores/arduino/HardwareSerial0.cpp</itemPath>
+        <itemPath>cores/arduino/HardwareSerial1.cpp</itemPath>
+        <itemPath>cores/arduino/HardwareSerial2.cpp</itemPath>
+        <itemPath>cores/arduino/HardwareSerial3.cpp</itemPath>
+        <itemPath>cores/arduino/HardwareSerial_private.h</itemPath>
+        <itemPath>cores/arduino/IPAddress.cpp</itemPath>
+        <itemPath>cores/arduino/IPAddress.h</itemPath>
+        <itemPath>cores/arduino/PluggableUSB.cpp</itemPath>
+        <itemPath>cores/arduino/PluggableUSB.h</itemPath>
+        <itemPath>cores/arduino/Print.cpp</itemPath>
+        <itemPath>cores/arduino/Print.h</itemPath>
+        <itemPath>cores/arduino/Printable.h</itemPath>
+        <itemPath>cores/arduino/Server.h</itemPath>
+        <itemPath>cores/arduino/Stream.cpp</itemPath>
+        <itemPath>cores/arduino/Stream.h</itemPath>
+        <itemPath>cores/arduino/Tone.cpp</itemPath>
+        <itemPath>cores/arduino/USBAPI.h</itemPath>
+        <itemPath>cores/arduino/USBCore.cpp</itemPath>
+        <itemPath>cores/arduino/USBCore.h</itemPath>
+        <itemPath>cores/arduino/USBDesc.h</itemPath>
+        <itemPath>cores/arduino/Udp.h</itemPath>
+        <itemPath>cores/arduino/WCharacter.h</itemPath>
+        <itemPath>cores/arduino/WInterrupts.c</itemPath>
+        <itemPath>cores/arduino/WMath.cpp</itemPath>
+        <itemPath>cores/arduino/WString.cpp</itemPath>
+        <itemPath>cores/arduino/WString.h</itemPath>
+        <itemPath>cores/arduino/abi.cpp</itemPath>
+        <itemPath>cores/arduino/binary.h</itemPath>
+        <itemPath>cores/arduino/hooks.c</itemPath>
+        <itemPath>cores/arduino/main.cpp</itemPath>
+        <itemPath>cores/arduino/new.cpp</itemPath>
+        <itemPath>cores/arduino/new.h</itemPath>
+        <itemPath>cores/arduino/pins_arduino.h</itemPath>
+        <itemPath>cores/arduino/wiring.c</itemPath>
+        <itemPath>cores/arduino/wiring_analog.c</itemPath>
+        <itemPath>cores/arduino/wiring_digital.c</itemPath>
+        <itemPath>cores/arduino/wiring_private.h</itemPath>
+        <itemPath>cores/arduino/wiring_pulse.c</itemPath>
+        <itemPath>cores/arduino/wiring_shift.c</itemPath>
+      </logicalFolder>
+      <itemPath>loop.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>cores/arduino</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>AVR|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <commandLine>-Os -mmcu=atmega328p -ffunction-sections -fdata-sections -Wl,--gc-sections</commandLine>
+          <preprocessorList>
+            <Elem>ARDUINO=161</Elem>
+            <Elem>F_CPU=16000000L</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>cores/arduino</pElem>
+          </incDir>
+          <commandLine>-Os -mmcu=atmega328p -ffunction-sections -fdata-sections -Wl,--gc-sections</commandLine>
+          <preprocessorList>
+            <Elem>ARDUINO=161</Elem>
+            <Elem>F_CPU=16000000L</Elem>
+          </preprocessorList>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+          <commandLine>-Os -mmcu=atmega328p -ffunction-sections -fdata-sections -Wl,--gc-sections</commandLine>
+        </asmTool>
+      </compileType>
+      <item path="cores/arduino/Arduino.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/CDC.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/Client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/HardwareSerial.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/HardwareSerial.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/HardwareSerial0.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/HardwareSerial1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/HardwareSerial2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/HardwareSerial3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/HardwareSerial_private.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="cores/arduino/IPAddress.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/IPAddress.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/PluggableUSB.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/PluggableUSB.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/Print.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/Print.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/Printable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/Server.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/Stream.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/Stream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/Tone.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/USBAPI.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/USBCore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/USBCore.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/USBDesc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/Udp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/WCharacter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/WInterrupts.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cores/arduino/WMath.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/WString.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/WString.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/abi.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/binary.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/hooks.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cores/arduino/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/new.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/new.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/pins_arduino.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/wiring.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cores/arduino/wiring_analog.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cores/arduino/wiring_digital.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cores/arduino/wiring_private.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/wiring_pulse.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cores/arduino/wiring_shift.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="loop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Upload" type="1">
+      <toolsSet>
+        <compilerSet>AVR|GNU</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>cores/arduino</pElem>
+          </incDir>
+          <commandLine>-Os -mmcu=atmega328p -ffunction-sections -fdata-sections -Wl,--gc-sections</commandLine>
+          <preprocessorList>
+            <Elem>ARDUINO=161</Elem>
+            <Elem>F_CPU=16000000L</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>cores/arduino</pElem>
+          </incDir>
+          <commandLine>-Os -mmcu=atmega328p -ffunction-sections -fdata-sections -Wl,--gc-sections</commandLine>
+          <preprocessorList>
+            <Elem>ARDUINO=161</Elem>
+            <Elem>F_CPU=16000000L</Elem>
+          </preprocessorList>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="cores/arduino/Arduino.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/CDC.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/Client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/HardwareSerial.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/HardwareSerial.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/HardwareSerial0.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/HardwareSerial1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/HardwareSerial2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/HardwareSerial3.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/HardwareSerial_private.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="cores/arduino/IPAddress.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/IPAddress.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/PluggableUSB.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/PluggableUSB.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/Print.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/Print.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/Printable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/Server.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/Stream.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/Stream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/Tone.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/USBAPI.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/USBCore.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/USBCore.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/USBDesc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/Udp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/WCharacter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/WInterrupts.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cores/arduino/WMath.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/WString.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/WString.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/abi.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/binary.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/hooks.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cores/arduino/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/new.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="cores/arduino/new.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/pins_arduino.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/wiring.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cores/arduino/wiring_analog.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cores/arduino/wiring_digital.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cores/arduino/wiring_private.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cores/arduino/wiring_pulse.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cores/arduino/wiring_shift.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="loop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
