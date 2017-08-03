@@ -63,13 +63,13 @@ build: ${CONF}
 # Add your pre 'build' code here...
 
 .build-post: .build-impl
-	avr-objcopy -j .text -j .data -O ihex ${CND_ARTIFACT_PATH_Release} ${CND_ARTIFACT_PATH_Release}.hex
+	avr-objcopy -j .text -j .data -O ihex ${CND_ARTIFACT_PATH_${CONF}} ${CND_ARTIFACT_PATH_${CONF}}.hex
 
 Release: .build-post
 	@echo ${CONF} OK
 
 Upload: .build-post
-	avrdude -q -V -p$(MCU) -D -carduino -b$(BAUD) -P$(COM) -Uflash:w:${CND_ARTIFACT_PATH_Release}.hex:i
+	avrdude -q -V -p$(MCU) -D -carduino -b$(BAUD) -P$(COM) -Uflash:w:${CND_ARTIFACT_PATH_${CONF}}.hex:i
 
 # clean
 clean: .clean-post
